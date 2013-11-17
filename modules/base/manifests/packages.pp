@@ -5,7 +5,7 @@ class base::packages {
        'libaugeas0', 'ruby-augeas', 'ruby-safe-yaml', 'ruby-shadow',
        'dropbox', 'openssh-server', 'keepass2', 'oracle-java7-installer',
        'kubuntu-restricted-extras', 'samba', 'samba-tools', 'system-config-samba',
-       'cifs-utils', 'nvidia-current-updates', 'vlc'],
+       'cifs-utils', 'nvidia-current-updates', 'vlc', 'libgtk2-perl'],
     default  => fail("$::operatingsystem isn't supported."),
   }
 
