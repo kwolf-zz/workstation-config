@@ -20,7 +20,11 @@ class base::apt_sources {
     repos       => 'main',
     release     => 'stable',
     include_src => false,
-
   }
 
+  apt::source {'webupd8team-java':
+    location    => 'http://ppa.launchpad.net/webupd8team/java/ubuntu',
+    repos       => 'main',
+    include_src => false,
+  }
 }

@@ -3,7 +3,7 @@ class base::packages {
     'Debian' => ['aptitude', 'puppet-common', 'puppet', 'tmux',
        'subversion', 'libxss1',  'facter', 'augeas-lenses', 'libaugeas-ruby',
        'libaugeas0', 'ruby-augeas', 'ruby-safe-yaml', 'ruby-shadow',
-       'dropbox', 'openssh-server', 'keepass2' ],
+       'dropbox', 'openssh-server', 'keepass2', 'oracle-java7-installer' ],
     default  => fail("$::operatingsystem isn't supported."),
   }
 
