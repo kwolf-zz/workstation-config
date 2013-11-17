@@ -3,7 +3,9 @@ class base::packages {
     'Debian' => ['aptitude', 'puppet-common', 'puppet', 'tmux',
        'subversion', 'libxss1',  'facter', 'augeas-lenses', 'libaugeas-ruby',
        'libaugeas0', 'ruby-augeas', 'ruby-safe-yaml', 'ruby-shadow',
-       'dropbox', 'openssh-server', 'keepass2', 'oracle-java7-installer' ],
+       'dropbox', 'openssh-server', 'keepass2', 'oracle-java7-installer',
+       'kubuntu-restricted-extras', 'samba', 'samba-tools', 'system-config-samba',
+       'cifs-utils', 'nvidia-current-updates', 'vlc'],
     default  => fail("$::operatingsystem isn't supported."),
   }
 

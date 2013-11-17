@@ -12,6 +12,7 @@ node default {
   include ntp
   include vpn
   include chrome
+  include netflix
 
   class { 'janus': }
   janus::install { 'kwolf': }

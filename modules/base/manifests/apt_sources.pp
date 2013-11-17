@@ -27,4 +27,6 @@ class base::apt_sources {
     repos       => 'main',
     include_src => false,
   }
+
+  apt::ppa {'ppa:ehoover/compholio': }
 }
