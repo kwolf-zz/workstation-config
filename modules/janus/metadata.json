@@ -1,0 +1,25 @@
+{
+  "name": "acme-janus",
+  "version": "0.1.0",
+  "source": "https://github.com/acme/puppet-acme-janus",
+  "author": "acme",
+  "license": "Apache License, Version 2.0",
+  "summary": "Janus module",
+  "description": "This is the Janus module. It installs Janus for a user",
+  "project_page": "https://github.com/acme/puppet-acme-oh-my-zsh",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "5106addb510d165233e0ce7788684ddd",
+    "README": "298cb12451aabc3999bd998c6599afb8",
+    "Rakefile": "8a3c5b6dfcab55f3096f5ffed645de4a",
+    "manifests/init.pp": "ef9f6a0b213b7106a5d8e071d6ce1013",
+    "manifests/install.pp": "362911cf3f9acc42c8a63fa335b7941b",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "tests/init.pp": "8f9f5236fc8dcbd5ab01f4338ad43710"
+  }
+}
