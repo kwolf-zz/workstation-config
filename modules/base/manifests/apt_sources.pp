@@ -29,4 +29,7 @@ class base::apt_sources {
   }
 
   apt::ppa {'ppa:ehoover/compholio': }
+
+  # Currently no stable xbmc for 13.10.
+  apt::ppa {'ppa:team-xbmc/unstable': }
 }

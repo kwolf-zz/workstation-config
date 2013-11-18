@@ -9,6 +9,7 @@ class users {
     ensure  => directory,
     recurse => true,
     require => User['kwolf'],
+    mode    => '0600',
     source  => 'file:///home/kwolf/Dropbox/ssh',
   }
 }

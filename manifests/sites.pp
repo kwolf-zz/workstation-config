@@ -13,6 +13,8 @@ node default {
   include vpn
   include chrome
   include netflix
+  include conky
+  include xbmc
 
   class { 'janus': }
   janus::install { 'kwolf': }
