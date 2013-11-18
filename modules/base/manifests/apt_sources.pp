@@ -32,4 +32,5 @@ class base::apt_sources {
 
   # Currently no stable xbmc for 13.10.
   apt::ppa {'ppa:team-xbmc/unstable': }
+
 }
