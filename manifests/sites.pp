@@ -15,6 +15,7 @@ node default {
   include netflix
   include conky
   include xbmc
+  include pidgin
 
   class { 'janus': }
   janus::install { 'kwolf': }
