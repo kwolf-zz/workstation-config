@@ -27,4 +27,10 @@ class base {
     target => "${home}/Dropbox/dotfiles/gvimrc.after",
   }
 
+  file {"/etc/ssh/ssh_config":
+    ensure => present,
+    owner  => 'root',
+    group  => 'root',
+    source => 'file:///home/kwolf/dev/workstation-config/modules/base/files/ssh_config',
+  }
 }
