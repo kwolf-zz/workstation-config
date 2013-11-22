@@ -17,6 +17,8 @@ node default {
   include xbmc
   include pidgin
 
+  class {'virtualbox':}
+
   class { 'janus': }
   janus::install { 'kwolf': }
 
